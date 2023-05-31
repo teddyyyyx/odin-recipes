@@ -1,7 +1,8 @@
 body{
     background-color: rgb(27, 41, 56);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    margin-top: 30px;
+  }
 
 img{
     display: flex;
@@ -10,10 +11,15 @@ img{
     height: auto;
 }
 
+.title {
+  font-size: 50px;
+}
+
 .text-white-center{
-    color: white;
+    color: rgb(171, 162, 162);
     text-align: center;
 }
+
 
 
 .text-white-center h2{
@@ -47,11 +53,11 @@ li{
 .container{
     display: flex;
     margin-top: 7rem;
+    justify-content: center;
 }
 
 .ingredients{
     width: 22rem;
-    margin-left: 8rem;    
     background-color: rgba(75, 71, 71, 0.39);
     padding-left: 2rem;
 }
